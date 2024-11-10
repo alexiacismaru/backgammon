@@ -1,0 +1,333 @@
+@font-face {
+    font-family:JetBrainsMono;
+    src: url('../media/Fonts/JetBrainsMono-ExtraBold.ttf');
+}/*import the font family*/
+
+@media screen and (max-width: 2560px){/*I adjusted the sizes to fit the biggest resolution */
+    body{/*this attributes apply to the whole website, unless stated otherwise*/
+        background-color: darkred;
+        font-family: JetBrainsMono, serif;/*insert an alternative font that is recognised by all browser in case the downloaded font is not recognised*/
+        color: black;
+        text-align: center;
+        box-sizing: border-box;
+    }
+
+    header{
+        display: flex;
+        align-items: baseline;
+    }/*this is to make sure that both of the components of the header (the title and the navigation bar) are aligned*/
+
+    h1{
+        font-style: italic;
+        color: darkblue;
+        font-size: 170px;
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    h1>a{
+        text-decoration: none;
+    }/*removes the underline from the link*/
+
+    nav{
+        padding-left: 570px;
+    }/*makes a bigger space in between the title and the navigation bar*/
+
+    nav>ol>li{
+        display: inline;
+        text-align: right;
+        text-decoration: none;
+        font-size: 30px;
+    }/*make sure that the 3 elements are aligned*/
+
+    nav>ol>li>a{
+        text-align: right;
+        color: antiquewhite;
+        text-decoration: none;
+        padding: 4px;
+    }/*change the aspect of the links and remove the underline from the link*/
+
+    nav>ol>li>a:hover{
+        background-color: antiquewhite;
+        color: darkred;
+        padding: 4px;
+    }/*when hovering over these links their aspect changes before clicking on them*/
+
+    .creators {
+        border-bottom: 2px solid antiquewhite;
+    }/*underline the "Meet the creators" tab from the navigation bar to let the visitor know  on what page of the website they are on*/
+
+    .group>h2{
+        font-size: 50px;
+    }
+
+    .group>h1{
+        color: darkblue;
+        font-size: 100px;
+        font-weight: bolder;
+    }/*h1 is used again to mark the importance of the "Group 18" title*/
+
+    .group>img{
+        height: 580px;
+        width: 680px;
+        border-radius: 2px;
+    }/*make the image smaller to fit the aspect of the page*/
+
+    ol{
+        list-style: none;
+        align-content: space-between;
+    }/*first I removed the circle in front of the list item and then I added space in between the elements*/
+
+    .team{
+        display: flex;
+        justify-content: space-around;
+    }/*add space in between the class and the elements around them*/
+
+    .teamMember>img{
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+    }/*I made the pictures smaller to fit in a row and I turned them into a circle using the border radius*/
+
+    .teamMember>h3{
+        font-size: 40px;
+        color: antiquewhite;
+    }
+
+    .teamMember>p{
+        font-size: 30px;
+    }
+
+    .teamMember>ol>li{
+        font-size: 20px;
+        font-weight: normal;
+        text-align: center;
+    }/*the font chosen for this page is bold by default so I made it lighter for the roles*/
+
+    footer{
+        color: antiquewhite;
+        display: flex;
+        height: 60px;
+        font-size: 20px;
+        background-color: #5b0000;
+        justify-content: center;
+    }/*I made the text go in the middle using the display feature and then I added a slightly darker background colour to accentuate the footer, and lastly
+   the font chosen for this page is bold by default so I made it lighter*/
+}
+
+@media screen and (max-width: 1800px){/*I adjusted the sizes to fit the resolution of the laptop screen*/
+    body{/*this attributes apply to the whole website, unless stated otherwise*/
+        background-color: darkred;
+        font-family: JetBrainsMono, serif;/*insert an alternative font that is recognised by all browser in case the downloaded font is not recognised*/
+        color: black;
+        text-align: center;
+        box-sizing: border-box;
+    }
+
+    header{
+        display: flex;
+        align-items: baseline;
+    }/*this is to make sure that both of the components of the header (the title and the navigation bar) are aligned*/
+
+    h1{
+        font-style: italic;
+        color: darkblue;
+        font-size: 70px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    h1>a{
+        text-decoration: none;
+    }/*removes the underline from the link*/
+
+    nav{
+        padding-left: 590px;
+    }/*makes a bigger space in between the title and the navigation bar*/
+
+    nav>ol>li{
+        display: inline;
+        text-align: right;
+        text-decoration: none;
+        font-size: 15px;
+    }/*make sure that the 3 elements are aligned*/
+
+    nav>ol>li>a{
+        text-align: right;
+        color: antiquewhite;
+        text-decoration: none;
+        padding: 4px;
+    }/*change the aspect of the links and remove the underline from the link*/
+
+    nav>ol>li>a:hover{
+        background-color: antiquewhite;
+        color: darkred;
+        padding: 4px;
+    }/*when hovering over these links their aspect changes before clicking on them*/
+
+    .group>h2{
+        font-size: 30px;
+    }
+
+    .group>h1{
+        color: darkblue;
+        font-size: 40px;
+    }/*h1 is used again to mark the importance of the "Group 18" title*/
+
+    .group>img{
+        height: 380px;
+        width: 480px;
+        border-radius: 2px;
+    }/*make the image smaller to fit the aspect of the page*/
+
+    ol{
+        list-style: none;
+        align-content: space-between;
+    }/*first I removed the circle in front of the list item and then I added space in between the elements*/
+
+    .team{
+        display: flex;
+        justify-content: space-around;
+    }/*add space in between the class and the elements around them*/
+
+    .teamMember>img{
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+    }/*I made the pictures smaller to fit in a row and I turned them into a circle using the border radius*/
+
+    .teamMember>h3{
+        color: antiquewhite;
+        font-size: 20px;
+    }
+
+    .teamMember>p{
+        font-size: 20px;
+    }
+
+    .teamMember>ol>li{
+        font-weight: normal;
+        text-align: center;
+        font-size: 20px;
+    }/*the font chosen for this page is bold by default so I made it lighter for the roles*/
+
+    footer{
+        display: flex;
+        justify-content: center;
+        color: antiquewhite;
+        height: 60px;
+        background-color: #5b0000;
+        font-weight: normal;
+    }/*I made the text go in the middle using the display feature and then I added a slightly darker background colour to accentuate the footer, and lastly
+   the font chosen for this page is bold by default so I made it lighter*/
+}
+
+@media screen and (max-width: 640px){/*I adjusted the sizes to fit the smallest resolution */
+    body{/*this attributes apply to the whole website, unless stated otherwise*/
+        background-color: darkred;
+        font-family: JetBrainsMono, serif;/*insert an alternative font that is recognised by all browser in case the downloaded font is not recognised*/
+        color: black;
+        text-align: center;
+        box-sizing: border-box;
+    }
+
+    header{
+        display: flex;
+        align-items: baseline;
+    }/*this is to make sure that both of the components of the header (the title and the navigation bar) are aligned*/
+
+    h1{
+        font-style: italic;
+        color: darkblue;
+        font-size: 53px;
+        padding-left: 33px;
+        padding-right: 33px;
+    }
+
+    h1>a{
+        text-decoration: none;
+    }/*removes the underline from the link*/
+
+    nav{
+        padding-left: 10px;
+    }/*makes a bigger space in between the title and the navigation bar*/
+
+    nav>ol>li{
+        display: inline;
+        text-align: right;
+        text-decoration: none;
+        font-size: 9px;
+    }/*make sure that the 3 elements are aligned*/
+
+    nav>ol>li>a{
+        color: antiquewhite;
+        padding: 4px;
+        text-decoration: none;
+    }/*change the aspect of the links and remove the underline from the link*/
+
+    .creators {
+        border-bottom: 2px solid antiquewhite;
+    }/*underline the "Meet the creators" tab from the navigation bar to let the visitor know  on what page of the website they are on*/
+
+    nav>ol>li>a:hover{
+        background-color: antiquewhite;
+        color: darkred;
+        padding: 4px;
+    }/*when hovering over these links their aspect changes before clicking on them*/
+
+    .group>h1{
+        color: darkblue;
+        font-size: 25px;
+        font-weight: bolder;
+    }/*h1 is used again to mark the importance of the "Group 18" title*/
+
+    .group>h2{
+        font-size: 25px;
+    }
+
+    .group>img{
+        height: 180px;
+        width: 280px;
+        border-radius: 2px;
+    }/*make the image smaller to fit the aspect of the page*/
+
+    ol{
+        list-style: none;
+        align-content: space-between;
+    }/*first I removed the circle in front of the list item and then I added space in between the elements*/
+
+    .team{
+        display: flex;
+        justify-content: space-around;
+    }/*add space in between the class and the elements around them*/
+
+    .teamMember>img{
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+    }/*I made the pictures smaller to fit in a row and I turned them into a circle using the border radius*/
+
+    .teamMember>h3{
+        color: antiquewhite;
+        font-size: 10px;
+    }
+
+    .teamMember>p{
+        font-size: 10px;
+    }
+
+    .teamMember>ol>li{
+        font-weight: normal;
+        text-align: center;
+        font-size: 10px;
+    }/*the font chosen for this page is bold by default so I made it lighter for the roles*/
+
+    footer{
+        display: flex;
+        height: 30px;
+        font-size: 10px;
+        background-color: #5b0000;
+        justify-content: center;
+    }/*I made the text go in the middle using the display feature and then I added a slightly darker background colour to accentuate the footer, and lastly
+   the font chosen for this page is bold by default so I made it lighter*/
+}

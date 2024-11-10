@@ -1,0 +1,245 @@
+@font-face {
+    font-family:JetBrainsMono;
+    src: url('../media/Fonts/JetBrainsMono-ExtraBold.ttf');
+}/*import the font family*/
+
+@media screen and (max-width: 2560px){
+    body{/*this attributes apply to the whole website, unless stated otherwise*/
+        background-color: darkred;
+        font-family: JetBrainsMono, serif;/*insert an alternative font that is recognised by all browser in case the downloaded font is not recognised*/
+        color: antiquewhite;
+        text-align: center;
+        padding: 30px;/*I added this to give it a nicer, tidier aspect*/
+        box-sizing: border-box;
+    }
+
+    header{
+        display: flex;
+        align-items: baseline;
+    }/*this is to make sure that both of the components of the header (the title and the navigation bar) are aligned*/
+
+    h1{
+        font-style: italic;
+        color: darkblue;
+        font-size: 170px;
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    h1>a{
+        text-decoration: none;
+    }/*removes the underline from the link*/
+
+    nav{
+        padding-left: 570px;
+    }/*makes a bigger space in between the title and the navigation bar*/
+
+    nav>ol>li{
+        display: inline;
+        text-align: right;
+        text-decoration: none;
+        font-size: 30px;
+    }/*make sure that the 3 elements are aligned*/
+
+    nav>ol>li>a{
+        text-align: right;
+        color: antiquewhite;
+        text-decoration: none;
+        padding: 4px;
+    }/*change the aspect of the links and remove the underline from the link*/
+
+    nav>ol>li>a:hover{
+        background-color: antiquewhite;
+        color: darkred;
+        padding: 4px;
+    }/*when hovering over these links their aspect changes before clicking on them*/
+
+    .rulesMenu{
+        border-bottom: 2px solid antiquewhite;
+    }/*underline the "Rules" tab from the navigation bar to let the visitor know  on what page of the website they are on*/
+
+    main>h3{
+        font-size: 40px;
+    }
+
+    .rules{
+        text-align: left;
+        font-size: 27px;
+        padding: 100px;
+    }/*in the body the "text-align" is set to center, but I thought that lining the rules to the left would look better*/
+
+    div>img{
+        height: 630px;
+        width: 630px;
+    }/*make the image smaller to fit the aspect of the page*/
+
+    footer{
+        display: flex;
+        height: 80px;
+        font-size: 20px;
+        background-color: #5b0000;
+        justify-content: center;
+    }/*I made the text go in the middle using the display feature and then I added a slightly darker background colour to accentuate the footer, and lastly
+   the font chosen for this page is bold by default so I made it lighter*/
+}
+
+@media screen and (max-width: 1800px){
+    body{/*this attributes apply to the whole website, unless stated otherwise*/
+        background-color: darkred;
+        font-family: JetBrainsMono, serif;/*insert an alternative font that is recognised by all browser in case the downloaded font is not recognised*/
+        color: antiquewhite;
+        text-align: center;
+        padding: 3px;/*I added this to give it a nicer, tidier aspect*/
+        box-sizing: border-box;
+        font-size: 18px;
+    }
+
+    header{
+        display: flex;
+        align-items: baseline;
+    }/*this is to make sure that both of the components of the header (the title and the navigation bar) are aligned*/
+
+    h1{
+        font-style: italic;
+        color: darkblue;
+        font-size: 70px;
+        padding-left: 33px;
+        padding-right: 33px;
+    }
+
+    h1>a{
+        text-decoration: none;
+    }/*removes the underline from the link*/
+
+    nav{
+        padding-left: 570px;
+    }/*makes a bigger space in between the title and the navigation bar*/
+
+    nav>ol>li{
+        display: inline;
+        text-align: right;
+        text-decoration: none;
+        font-size: 15px;
+    }/*make sure that the 3 elements are aligned*/
+
+    nav>ol>li>a{
+        text-align: right;
+        color: antiquewhite;
+        text-decoration: none;
+        padding: 4px;
+    }/*change the aspect of the links and remove the underline from the link*/
+
+    nav>ol>li>a:hover{
+        background-color: antiquewhite;
+        color: darkred;
+        padding: 2px;
+    }/*when hovering over these links their aspect changes before clicking on them*/
+
+    .rulesMenu{
+        border-bottom: 2px solid antiquewhite;
+    }/*underline the "Rules" tab from the navigation bar to let the visitor know  on what page of the website they are on*/
+
+    main>h3{
+        font-size: 20px;
+    }
+
+    .rules{
+        text-align: left;
+        font-size: 20px;
+        padding: 70px;
+    }/*in the body the "text-align" is set to center, but I thought that lining the rules to the left would look better*/
+
+    div>img{
+        height: 400px;
+        width: 400px;
+    }/*make the image smaller to fit the aspect of the page*/
+
+    footer{
+        display: flex;
+        height: 60px;
+        font-size: 15px;
+        background-color: #5b0000;
+        justify-content: center;
+    }/*I made the text go in the middle using the display feature and then I added a slightly darker background colour to accentuate the footer, and lastly
+   the font chosen for this page is bold by default so I made it lighter*/
+}
+
+@media screen and (max-width: 640px){
+    body{/*this attributes apply to the whole website, unless stated otherwise*/
+        background-color: darkred;
+        font-family: JetBrainsMono, serif;/*insert an alternative font that is recognised by all browser in case the downloaded font is not recognised*/
+        color: antiquewhite;
+        text-align: center;
+        padding: 3px;/*I added this to give it a nicer, tidier aspect*/
+        box-sizing: border-box;
+    }
+
+    header{
+        display: flex;
+        align-items: baseline;
+    }/*this is to make sure that both of the components of the header (the title and the navigation bar) are aligned*/
+
+    h1{
+        font-style: italic;
+        color: darkblue;
+        font-size: 53px;
+        padding-left: 33px;
+        padding-right: 33px;
+    }
+
+    h1>a{
+        text-decoration: none;
+    }/*removes the underline from the link*/
+
+    nav{
+        padding-left: 5px;
+    }/*makes a bigger space in between the title and the navigation bar*/
+
+    nav>ol>li{
+        display: inline;
+        text-align: right;
+        text-decoration: none;
+        font-size: 9px;
+    }/*make sure that the 3 elements are aligned*/
+
+    nav>ol>li>a{
+        text-align: right;
+        color: antiquewhite;
+        text-decoration: none;
+        padding: 4px;
+    }/*change the aspect of the links and remove the underline from the link*/
+
+    nav>ol>li>a:hover{
+        background-color: antiquewhite;
+        color: darkred;
+        padding: 2px;
+    }/*when hovering over these links their aspect changes before clicking on them*/
+
+    main>h3{
+        font-size: 15px;
+    }
+
+    .rulesMenu{
+        border-bottom: 2px solid antiquewhite;
+    }/*underline the "Rules" tab from the navigation bar to let the visitor know  on what page of the website they are on*/
+
+    .rules{
+        text-align: left;
+        font-size: 10px;
+        padding: 30px;
+    }/*in the body the "text-align" is set to center, but I thought that lining the rules to the left would look better*/
+
+    div>img{
+        height: 170px;
+        width: 170px;
+    }/*make the image smaller to fit the aspect of the page*/
+
+    footer{
+        display: flex;
+        height: 30px;
+        font-size: 10px;
+        background-color: #5b0000;
+        justify-content: center;
+    }/*I made the text go in the middle using the display feature and then I added a slightly darker background colour to accentuate the footer, and lastly
+   the font chosen for this page is bold by default so I made it lighter*/
+}

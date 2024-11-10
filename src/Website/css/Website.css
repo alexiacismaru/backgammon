@@ -1,0 +1,343 @@
+@font-face {
+    font-family:JetBrainsMono;
+    src: url('../media/Fonts/JetBrainsMono-ExtraBold.ttf');
+}/*import the font family*/
+
+@media screen and (max-width: 2560px){/*I adjusted the sizes to fit the biggest resolution*/
+    body{/*this attributes apply to the whole website, unless stated otherwise*/
+        background-color: darkred;
+        font-family: JetBrainsMono, serif;/*insert an alternative font that is recognised by all browser in case the downloaded font is not recognised*/
+        color: antiquewhite;
+        text-align: center;
+        box-sizing: border-box;
+    }
+
+    header{
+        display: flex;
+        align-items: baseline;
+    }/*this is to make sure that both of the components of the header (the title and the navigation bar) are aligned*/
+
+    h1{
+        font-style: italic;
+        color: darkblue;
+        font-size: 170px;
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    h1>a{
+        text-decoration: none;
+    }/*removes the underline from the link*/
+
+    nav{
+        padding-left: 570px;
+    }/*makes a bigger space in between the title and the navigation bar*/
+
+    nav>ol>li{
+        display: inline;
+        text-align: right;
+        text-decoration: none;
+        font-size: 30px;
+    }/*make sure that the 3 elements are aligned*/
+
+    nav>ol>li>a{
+        text-align: right;
+        color: antiquewhite;
+        text-decoration: none;
+        padding: 4px;
+    }/*change the aspect of the links and remove the underline from the link*/
+
+    nav>ol>li>a:hover{
+        background-color: antiquewhite;
+        color: darkred;
+        padding: 4px;
+    }/*when hovering over these links their aspect changes before clicking on them*/
+
+    .home{
+        border-bottom: 2px solid antiquewhite;
+    }/*underline the "Home" tab from the navigation bar to let the visitor know  on what page of the website they are on*/
+
+    main>h2{
+        font-size: 40px;
+    }
+
+    img{
+        padding-bottom: 10px;
+        width: 800px;
+        height: 700px;
+    }/*make the image smaller to fit the aspect of the page and add space in between it and the elements around*/
+
+    .play{
+        padding: 4px;
+        font-size: 50px;
+        font-weight: bold;
+        text-align: center;
+        width: 200px;
+        height: 100px;
+        color: antiquewhite;
+        border: 5px solid antiquewhite;
+        text-decoration: none;
+    }/*surround the download link with a border and remove the underline from the link*/
+
+    .play:hover{
+        padding: 4px;
+        font-size: 50px;
+        font-weight: bold;
+        text-align: center;
+        width: 200px;
+        height: 100px;
+        text-decoration: none;
+        border: 5px solid antiquewhite;
+        background-color: antiquewhite;
+        color: darkred;
+    }/*fill in the background of the button when hovering it and change the colour of the text to make it show up*/
+
+    .demo{
+        padding: 20px;
+    }/*add space in between the link and the elements around it*/
+
+    .demo>a{
+        color: antiquewhite;
+        text-decoration: none;
+        font-size: 20px;
+    }/*make the link antiquewhite and remove its underline*/
+
+    .space{
+        padding: 20px;
+    }/*add space in between the main and footer*/
+
+    footer{
+        display: flex;
+        height: 80px;
+        font-size: 20px;
+        background-color: #5b0000;
+        justify-content: center;
+    }/*I made the text go in the middle using the display feature and then I added a slightly darker background colour to accentuate the footer, and lastly
+   the font chosen for this page is bold by default so I made it lighter*/
+}
+
+@media screen and (max-width: 1800px){/*I adjusted the sizes to fit the resolution of the laptop scree */
+    body{/*this attributes apply to the whole website, unless stated otherwise*/
+        background-color: darkred;
+        font-family: JetBrainsMono, serif;/*insert an alternative font that is recognised by all browser in case the downloaded font is not recognised*/
+        color: antiquewhite;
+        text-align: center;
+        box-sizing: border-box;
+    }
+
+    header{
+        display: flex;
+        align-items: baseline;
+    }/*this is to make sure that both of the components of the header (the title and the navigation bar) are aligned*/
+
+    h1{
+        font-style: italic;
+        color: darkblue;
+        font-size: 70px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    h1>a{
+        text-decoration: none;
+    }/*removes the underline from the link*/
+
+    nav{
+        padding-left: 590px;
+    }/*makes a bigger space in between the title and the navigation bar*/
+
+    nav>ol>li{
+        display: inline;
+        text-align: right;
+        text-decoration: none;
+        font-size: 15px;
+    }/*make sure that the 3 elements are aligned*/
+
+    nav>ol>li>a{
+        text-align: right;
+        color: antiquewhite;
+        text-decoration: none;
+        padding: 4px;
+    }/*change the aspect of the links and remove the underline from the link*/
+
+    nav>ol>li>a:hover{
+        background-color: antiquewhite;
+        color: darkred;
+        padding: 4px;
+    }/*when hovering over these links their aspect changes before clicking on them*/
+
+    .home{
+        border-bottom: 2px solid antiquewhite;
+    }/*underline the "Home" tab from the navigation bar to let the visitor know  on what page of the website they are on*/
+
+    main>h2{
+        font-size: 20px;
+    }
+
+    img{
+        padding-bottom: 10px;
+        width: 500px;
+        height: 400px;
+    }/*make the image smaller to fit the aspect of the page and add space in between it and the elements around*/
+
+    .play{
+        padding: 4px;
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        width: 200px;
+        height: 100px;
+        color: antiquewhite;
+        border: 5px solid antiquewhite;
+        text-decoration: none;
+    }/*surround the download link with a border and remove the underline from the link*/
+
+    .play:hover{
+        padding: 4px;
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        width: 200px;
+        height: 100px;
+        text-decoration: none;
+        border: 5px solid antiquewhite;
+        background-color: antiquewhite;
+        color: darkred;
+    }/*fill in the background of the button when hovering it and change the colour of the text to make it show up*/
+
+    .demo{
+        padding: 20px;
+    }/*add space in between the link and the elements around it*/
+
+    .demo>a{
+        color: antiquewhite;
+        text-decoration: none;
+    }/*make the link antiquewhite and remove its underline*/
+
+    .space{
+        padding: 20px;
+    }/*add space in between the main and footer*/
+
+    footer{
+        display: flex;
+        align-content: baseline;
+        height: 60px;
+        background-color: #5b0000;
+        justify-content: center;
+    }/*I made the text go in the middle using the display feature and then I added a slightly darker background colour to accentuate the footer, and lastly
+   the font chosen for this page is bold by default so I made it lighter*/
+}
+
+@media screen and (max-width: 640px){/*I adjusted the sizes to fit the smallest resolution */
+    body{/*this attributes apply to the whole website, unless stated otherwise*/
+        background-color: darkred;
+        font-family: JetBrainsMono, serif;/*insert an alternative font that is recognised by all browser in case the downloaded font is not recognised*/
+        color: antiquewhite;
+        text-align: center;
+        box-sizing: border-box;
+    }
+
+    header{
+        display: flex;
+        align-items: baseline;
+    }/*this is to make sure that both of the components of the header (the title and the navigation bar) are aligned*/
+
+    h1{
+        font-style: italic;
+        color: darkblue;
+        font-size: 53px;
+        padding-left: 33px;
+        padding-right: 33px;
+    }
+
+    h1>a{
+        text-decoration: none;
+    }/*removes the underline from the link*/
+
+    nav{
+        padding-left: 5px;
+    }/*makes a bigger space in between the title and the navigation bar*/
+
+    nav>ol>li{
+        display: inline;
+        text-align: right;
+        text-decoration: none;
+        font-size: 9px;
+    }/*make sure that the 3 elements are aligned*/
+
+    nav>ol>li>a{
+        text-align: right;
+        color: antiquewhite;
+        text-decoration: none;
+        padding: 4px;
+    }/*change the aspect of the links and remove the underline from the link*/
+
+    nav>ol>li>a:hover{
+        background-color: antiquewhite;
+        color: darkred;
+        padding: 2px;
+    }/*when hovering over these links their aspect changes before clicking on them*/
+
+    .home{
+        border-bottom: 2px solid antiquewhite;
+    }/*underline the "Home" tab from the navigation bar to let the visitor know  on what page of the website they are on*/
+
+    main>h2{
+        font-size: 15px;
+    }
+
+    img{
+        padding-bottom: 10px;
+        width:300px;
+        height: 230px;
+    }/*make the image smaller to fit the aspect of the page and add space in between it and the elements around*/
+
+    .play{
+        padding: 4px;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        width: 200px;
+        height: 100px;
+        color: antiquewhite;
+        border: 3px solid antiquewhite;
+        text-decoration: none;
+    }/*surround the download link with a border and remove the underline from the link*/
+
+    .play:hover{
+        padding: 4px;
+        font-size: 10px;
+        font-weight: bold;
+        text-align: center;
+        width: 200px;
+        height: 100px;
+        text-decoration: none;
+        border: 3px solid antiquewhite;
+        background-color: antiquewhite;
+        color: darkred;
+    }/*fill in the background of the button when hovering it and change the colour of the text to make it show up*/
+
+    .demo{
+        padding: 10px;
+    }/*add space in between the link and the elements around it*/
+
+    .demo>a{
+        color: antiquewhite;
+        text-decoration: none;
+        font-size: 15px;
+    }/*make the link antiquewhite and remove its underline*/
+
+    .space{
+        padding: 20px;
+    }/*add space in between the main and footer*/
+
+    footer{
+        display: flex;
+        align-content: baseline;
+        height: 30px;
+        font-size: 10px;
+        background-color: #5b0000;
+        justify-content: center;
+    }/*I made the text go in the middle using the display feature and then I added a slightly darker background colour to accentuate the footer, and lastly
+   the font chosen for this page is bold by default so I made it lighter*/
+}
